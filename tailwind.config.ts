@@ -18,10 +18,16 @@ const config = {
       },
     },
     fontFamily: {
+      inter: ["var(--font-inter)"],
       azerete: ["var(--font-azerete)"],
       epilogue: ["var(--font-epilogue)"],
     },
     extend: {
+      screens: {
+        "3xl": "1600px",
+        "4xl": "1800px",
+        "5xl": "1900px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -71,8 +77,15 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
       },
       animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },

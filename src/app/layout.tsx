@@ -1,7 +1,8 @@
-import { azerete, epilogue } from "@/lib/customFonts";
+import { azerete, epilogue, inter } from "@/lib/customFonts";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import "./globals.css";
+import { Navigation } from "@/components/sections/navigation";
 
 export const metadata: Metadata = {
   title: "SvoTech Studios - Full Service Agency",
@@ -18,9 +19,10 @@ export default function RootLayout({
       <body
         className={cn(
           "antialiased bg-black select-none",
-          `${azerete.variable} ${epilogue.variable}`
+          `${azerete.variable} ${epilogue.variable} ${inter.variable}`
         )}
       >
+        <Navigation />
         {children}
       </body>
     </html>

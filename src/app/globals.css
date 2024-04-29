@@ -65,3 +65,113 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
+
+.roundedButton {
+  border-radius: 3em;
+  border: 1px solid rgb(136, 136, 136);
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 60px 15px 60px;
+  overflow: hidden;
+}
+
+.roundedButton p {
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s linear;
+}
+
+.roundedButton:hover p {
+  color: white;
+}
+
+.circle {
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  border-radius: 50%;
+  top: 100%;
+}
+
+.slidingImages {
+  display: flex;
+  flex-direction: column;
+  gap: 0vw;
+  position: relative;
+  margin-top: 100px;
+  background-color: black;
+  z-index: 1;
+}
+.slidingImages .slider {
+  display: flex;
+  position: relative;
+  height: 30vw;
+  gap: 1vw;
+  width: 180vw;
+  left: -10vw;
+}
+.slidingImages .slider .project-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slidingImages .slider .project-item .imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.slidingImages .slider .project-item .imageContainer img {
+  object-fit: cover;
+  object-position: top;
+}
+
+.projsButtonContainer {
+  position: absolute;
+  z-index: 50;
+}
+.projsButton {
+  background-color: #ffee00;
+  color: black;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.projsButton h4 {
+  margin: 0px;
+  z-index: 2;
+  position: relative;
+}
+.projsButton p {
+  margin: 0px;
+  font-weight: 300;
+  z-index: 2;
+  position: relative;
+}
+
+@media screen and (max-width: 400px) {
+  .slidingImages {
+    display: flex;
+    flex-direction: column;
+    gap: 0vw;
+    position: relative;
+    margin-top: 100px;
+    background-color: black;
+    z-index: 1;
+  }
+  .slidingImages .slider {
+    display: flex;
+    position: relative;
+    height: 50vw;
+    gap: 4vw;
+    width: 280vw;
+    left: -80vw;
+  }
+}
