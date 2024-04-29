@@ -1,5 +1,7 @@
 const SchedulePage = () => {
-  return <div></div>;
+  return <div>
+    
+  </div>;
 };
 
 export default SchedulePage;

@@ -1,8 +1,7 @@
+import { azerete, epilogue } from "@/lib/customFonts";
+import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SvoTech Studios - Full Service Agency",
@@ -16,7 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={cn(
+          "antialiased bg-black select-none",
+          `${azerete.variable} ${epilogue.variable}`
+        )}
+      >
+        {children}
+      </body>
     </html>
   );
 }
