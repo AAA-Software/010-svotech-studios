@@ -67,15 +67,15 @@ const SlidingProjects = () => {
       <Link href="/#projects">
         <motion.div className="projsButtonContainer top-[25%] left-[30%]  md:top-[40%] md:left-[45%]">
           <Rounded
-            backgroundColor={"#FFEE00"}
-            className="projsButton w-[160px] h-[160px] md:w-[240px] md:h-[240px]"
+            backgroundColor={"#D3C71F"}
+            className="projsButton w-[160px] h-[160px] md:w-[220px] md:h-[220px]"
           >
             <div className="flex flex-col items-center justify-center">
               <h4 className=" font-inter text-3xl md:text-5xl font-semibold uppercase">
                 100+
               </h4>
 
-              <p className=" font-inter font-medium uppercase text-base md:text-lg">
+              <p className=" font-inter font-medium opacity-80 uppercase text-base md:text-lg">
                 Products Built
               </p>
             </div>
