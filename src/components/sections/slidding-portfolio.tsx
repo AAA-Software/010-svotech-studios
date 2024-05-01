@@ -1,10 +1,10 @@
 "use client";
 
-import { useRef } from "react";
-import { useScroll, useTransform, motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import Rounded from "../common/rounded-button";
 import Link from "next/link";
+import { useRef } from "react";
+import Rounded from "../common/rounded-button";
 
 const slider1 = [
   {

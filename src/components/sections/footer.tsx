@@ -46,7 +46,7 @@ const Footer = () => {
                     </h3>
                   </div>
                   <div className="mt-8" />
-                  <PrimaryButton />
+                  <PrimaryButton text="Book a call" />
                 </div>
               </div>
               <div className="md:hidden mt-4 w-full">

@@ -25,7 +25,7 @@ const HeroSection = () => {
           landscape
         </p>
         <div className="flex items-center gap-12 mt-10">
-          <PrimaryButton />
+          <PrimaryButton text="Start my journey" />
           <div className="relative h-[52px] w-[100px]">
             <Image
               fill

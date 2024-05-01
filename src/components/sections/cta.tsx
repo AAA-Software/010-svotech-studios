@@ -12,7 +12,7 @@ const CtaSection = () => {
           <span className="text-[#FFEE00]">SAAS Product!</span>
         </h2>
         <div className="flex items-center gap-4 mt-12">
-          <PrimaryButton />
+          <PrimaryButton text="Start my journey" />
           <SecondaryButton />
         </div>
       </Wrapper>
