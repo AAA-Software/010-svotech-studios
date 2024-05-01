@@ -20,7 +20,7 @@ const Services = () => {
       </p>
 
       <div className="servicesMain mt-20 md:mt-32">
-        <div className="servicesBody">
+        <div className="servicesBody"> 
           {services.map((service, index) => {
             return (
               <Service
