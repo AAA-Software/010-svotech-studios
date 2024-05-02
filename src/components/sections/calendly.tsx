@@ -7,21 +7,20 @@ const CalendlySection = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      const isMobile = window.innerWidth <= 768; // Define your mobile breakpoint here
+      const isMobile = window.innerWidth <= 768;
       if (isMobile) {
-        setHeight("1100px"); // Set mobile height
+        setHeight("1100px");
       } else {
-        setHeight("900px"); // Set desktop height
+        setHeight("900px");
       }
     };
 
-    handleResize(); // Call on initial render
-    window.addEventListener("resize", handleResize); // Add event listener for resize
-
+    handleResize();
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener("resize", handleResize); // Remove event listener on component unmount
+      window.removeEventListener("resize", handleResize);
     };
-  }, []); // Empty dependency array to run effect only once on mount
+  }, []);
   return (
     <div className=" relative -mt-80 w-full z-50 mb-40">
       <InlineWidget

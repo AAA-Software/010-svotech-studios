@@ -1,4 +1,5 @@
 import CtaSection from "@/components/sections/cta";
+import DevelopmentLifecycle from "@/components/sections/development-lifecycle";
 import { FAQs } from "@/components/sections/faq";
 import HeroSection from "@/components/sections/hero";
 import JourneySection from "@/components/sections/journey";
@@ -15,6 +16,7 @@ export default function Home() {
       <SlidingProjects />
       <WhyUs />
       <Services />
+      <DevelopmentLifecycle />
       <JourneySection />
       <CtaSection />
       <FAQs />
