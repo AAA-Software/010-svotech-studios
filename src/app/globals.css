@@ -236,10 +236,8 @@
   cursor: pointer;
   transition: all 0.2s;
 }
-
 .project h2 {
   color: white;
-  font-size: 80px;
   margin: 0px;
   transition: all 0.4s;
 }
@@ -279,3 +277,4 @@
   color: #000000;
   transition: all 0.3 ease-in;
 }
+

@@ -3,16 +3,16 @@ import Wrapper from "../wrapper/wrapper";
 
 const DevelopmentLifecycle = () => {
   return (
-    <div className=" w-full flex flex-col items-center mb-80 mt-20">
-      <h1 className="font-epilogue font-medium text-white text-7xl">
+    <div className=" w-full flex flex-col items-center mb-80 mt-20 px-4 md:px-0">
+      <h1 className="font-epilogue font-medium text-white text-5xl md:text-7xl">
         Development Lifecycle
       </h1>
-      <p className=" font-inter text-lg text-[#A3A3A3] text-center max-w-[60rem] px-5">
+      <p className=" font-inter text-lg text-[#A3A3A3] text-start md:text-center md:max-w-[60rem] md:px-5">
         As highly experienced agency, We will carefully implement our proven
         systems and operations to Guranteea working SAAS product.
       </p>
-      <Wrapper className="px-3 md:px-20 xl:px-32 mt-20">
-        <div className="w-full flex items-center justify-between px-32 gap-10">
+      <Wrapper className="px-0 md:px-20 xl:px-32 mt-10 md:mt-20">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10">
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
@@ -51,7 +51,7 @@ const DevelopmentLifecycle = () => {
           </div>
         </div>
 
-        <div className="w-full flex items-center justify-between px-32 gap-10 mt-10">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10 mt-4 md:mt-10">
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
@@ -89,7 +89,7 @@ const DevelopmentLifecycle = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center justify-between px-32 gap-10 mt-10">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10 mt-4 md:mt-10">
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
@@ -127,7 +127,7 @@ const DevelopmentLifecycle = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center justify-between px-32 gap-10 mt-10">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10 mt-4 md:mt-10">
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10">
             <div className=" w-full h-[25rem] relative">
               <Image
@@ -165,7 +165,7 @@ const DevelopmentLifecycle = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center justify-between px-32 gap-10 mt-10">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10 mt-4 md:mt-10">
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
@@ -204,7 +204,7 @@ const DevelopmentLifecycle = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center justify-between px-32 gap-10 mt-10">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10 mt-4 md:mt-10">
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
@@ -240,7 +240,7 @@ const DevelopmentLifecycle = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center justify-between px-32 gap-10 mt-10">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10 mt-4 md:mt-10">
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
@@ -276,7 +276,7 @@ const DevelopmentLifecycle = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center justify-between px-32 gap-10 mt-10">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10 mt-4 md:mt-10">
           <div className="w-full h-[35rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image

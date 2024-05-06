@@ -20,9 +20,9 @@ const Footer = () => {
           />
         </div>
 
-        <div className="w-full h-[50dvh] bg-[#1E1E1E] backdrop-blur-lg -mt-20 flex flex-col items-center justify-end rounded-2xl">
-          <div className="w-full bg-gradient-to-b from-[#0A0A0A] to-[#070707] h-[99.2%] z-50 rounded-2xl">
-            <div className="w-full flex flex-col md:flex-row justify-between items-start px-3 md:px-14 mt-16">
+        <div className="w-full h-[60vh] md:h-[50dvh] bg-[#1E1E1E] backdrop-blur-lg -mt-36 md:-mt-20 flex flex-col items-center justify-end rounded-2xl">
+          <div className="w-full bg-gradient-to-b from-[#0A0A0A] to-[#070707] h-[99.6%] md:h-[99.2%] z-50 rounded-2xl">
+            <div className="w-full flex flex-col md:flex-row justify-between items-start px-3 md:px-14 mt-8 md:mt-16">
               <div className="w-full md:w-[45%] hidden md:block">
                 <div className="w-full md:w-full flex flex-row md:flex-col justify-between">
                   <div className=" relative w-[200px] h-[64px] hover:scale-110 ease-in-out transition-all duration-200">

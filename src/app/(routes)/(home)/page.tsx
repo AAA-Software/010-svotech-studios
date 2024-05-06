@@ -11,7 +11,7 @@ import DevelopmentLifecycle from "@/components/sections/development-lifecycle";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full overflow-clip">
       <HeroSection />
       <PreviousClientsSection />
       <SlidingProjects />

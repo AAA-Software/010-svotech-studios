@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import useMeasure from "react-use-measure";
@@ -90,6 +90,7 @@ const BlogCarousel = () => {
           </motion.div>
         </div>
       </div>
+      ]
     </section>
   );
 };
@@ -104,7 +105,12 @@ const Post = ({ number, title, date, src }: PostType) => {
           marginRight: MARGIN,
         }}
       >
-        <Image className=" object-cover rounded-2xl" fill src={src} alt="Blog" />
+        <Image
+          className=" object-cover rounded-2xl"
+          fill
+          src={src}
+          alt="Blog"
+        />
       </div>
 
       <div
