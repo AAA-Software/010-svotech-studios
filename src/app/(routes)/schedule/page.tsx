@@ -5,6 +5,7 @@ const SchedulePage = () => {
   return (
     <div>
       <ScheduleHeroSection />
+      <div className="h-12 md:h-0"/>
       <CalendlySection />
     </div>
   );

@@ -109,7 +109,8 @@ const WhyUs = () => {
             </div>
 
             <h2 className=" font-epilogue font-medium text-white px-4 md:px-10 text-2xl md:text-3xl mt-4">
-              High quality work made entirely <br /> from scratch
+              High quality work made entirely <br className="hidden md:block" />{" "}
+              from scratch
             </h2>
             <p className=" font-inter text-base md:text-lg text-[#A3A3A3] max-w-[44rem] px-4 md:px-10">
               We never use templates. Instead, our team tailors each element

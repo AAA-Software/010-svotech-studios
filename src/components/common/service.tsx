@@ -37,7 +37,7 @@ const Service = ({
             </div>
           </div>
 
-          <div className=" hidden md:block md:px-28 md:-mt-8">
+          <div className=" hidden md:block md:px-28 md:-mt-0">
             <div className="flex flex-row items-center gap-10 w-full">
               <div
                 className="flex flex-row items-start md:items-center gap-4"

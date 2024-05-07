@@ -9,10 +9,11 @@ const JourneySection = () => {
 
   return (
     <section className="mx-auto w-full flex max-w-8xl flex-col items-center gap-0 md:py-12 md:flex-row md:justify-between md:items-end md:gap-0 px-3 md:px-20 xl:px-32">
-      <div className="w-full">
+      <div className="w-full h-fit">
         <h2 className=" font-epilogue font-medium text-white text-5xl md:text-6xl mb-8">
           Your SAAS journey in
-          <br className="hidden md:block" /> <span className="text-[#FFEE00]">four effortless steps</span>
+          <br className="hidden md:block" />{" "}
+          <span className="text-[#FFEE00]">four effortless steps</span>
         </h2>
         <Tabs selected={selected} setSelected={setSelected} />
       </div>
@@ -24,7 +25,7 @@ const JourneySection = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 10 }}
               key={index}
-              className="w-full"
+              className="w-full h-fit -mt-28 md:-mt-0"
             >
               <tab.Feature />
             </motion.div>
@@ -75,11 +76,11 @@ const Tab = ({ selected, title, setSelected, tabNum, icon }: TabProps) => {
         className="relative z-0 flex w-full transition-colors md:flex-col"
       >
         <span
-          className={`flex items-center gap-8 w-full max-w-full text-start text-xl font-normal font-inter transition-colors md:text-xl
+          className={`flex items-center gap-8 w-full max-w-full text-start text-lg font-normal font-inter transition-colors md:text-xl
           ${
             selected
-              ? " bg-gradient-to-r from-[#060606] to-[#0F0F0F] text-white rounded-lg md:rounded-xl px-10 py-4 md:py-8"
-              : "bg-transparent text-[#A3A3A3] group-hover:text-[#c7c7c7] px-10 py-4 md:py-8"
+              ? " bg-gradient-to-r from-[#060606] to-[#0F0F0F] text-white rounded-lg md:rounded-xl px-5 md:px-10 py-4 md:py-8"
+              : "bg-transparent text-[#A3A3A3] group-hover:text-[#c7c7c7] px-5 md:px-10 py-4 md:py-8"
           }`}
         >
           <div className=" aspect-square h-14 w-14 rounded-full bg-[#FFEE00] border border-[#FFF789] flex items-center justify-center">

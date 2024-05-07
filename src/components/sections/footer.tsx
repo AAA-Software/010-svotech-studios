@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="w-full h-fit">
       <Wrapper className="xl:px-0 flex flex-col items-center">
-        <div className="z-1 w-[90%] h-80 relative">
+        <div className="z-1 w-full md:w-[90%] h-96 md:h-80 relative">
           <Image
             className=" object-contain"
             fill
@@ -20,7 +20,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className="w-full h-[60vh] md:h-[50dvh] bg-[#1E1E1E] backdrop-blur-lg -mt-36 md:-mt-20 flex flex-col items-center justify-end rounded-2xl">
+        <div className="w-full h-[60vh] md:h-[50dvh] bg-[#1E1E1E] backdrop-blur-lg -mt-44 md:-mt-20 flex flex-col items-center justify-end rounded-2xl">
           <div className="w-full bg-gradient-to-b from-[#0A0A0A] to-[#070707] h-[99.6%] md:h-[99.2%] z-50 rounded-2xl">
             <div className="w-full flex flex-col md:flex-row justify-between items-start px-3 md:px-14 mt-8 md:mt-16">
               <div className="w-full md:w-[45%] hidden md:block">

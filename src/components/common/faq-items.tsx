@@ -13,11 +13,11 @@ export function FaqItems() {
           Why wouldn&apos;t I just hire a designer or developer?
         </AccordionTrigger>
         <AccordionContent>
-          At Studio IX, we value collaboration and believe in working closely
-          with our partners throughout the project lifecycle. By choosing us,
-          you benefit from a cohesive team approach, encompassing design,
-          development, and project management expertise for a streamlined and
-          comprehensive solution.
+          At SvoTech Studios, we value collaboration and believe in working
+          closely with our partners throughout the project lifecycle. By
+          choosing us, you benefit from a cohesive team approach, encompassing
+          design, development, and project management expertise for a
+          streamlined and comprehensive solution.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
@@ -54,10 +54,10 @@ export function FaqItems() {
       </AccordionItem>
       <AccordionItem value="item-5">
         <AccordionTrigger>
-          Why does Studio IX sound too good to be true?
+          Why does SvoTech Studios sound too good to be true?
         </AccordionTrigger>
         <AccordionContent>
-          Studio IX&apos;s dedication to excellence, experienced team, and
+          SvoTech Studios&apos; dedication to excellence, experienced team, and
           commitment to client satisfaction may seem remarkable, but it&apos;s a
           result of our genuine passion for what we do, years of expertise, and
           a track record of successful projects that speak to the quality of our

@@ -278,3 +278,249 @@
   transition: all 0.3 ease-in;
 }
 
+/* MENU */
+
+.svgCurve {
+  position: absolute;
+  top: 0;
+  left: -99px;
+  width: 100px;
+  height: 100%;
+  fill: #1a1d28;
+  stroke: none;
+}
+
+.headerButtonContainer {
+  transform: scale(0);
+  position: fixed;
+  right: 20px;
+  z-index: 20;
+}
+
+.headerButtonContainer .button {
+  position: relative;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #2a2f40;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.headerButtonContainer .burger {
+  width: 100%;
+  position: relative;
+  z-index: 20;
+}
+
+.headerButtonContainer .burger::after,
+.headerButtonContainer .burger::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.headerButtonContainer .burger::after {
+  top: -5px;
+}
+
+.headerButtonContainer .burger::before {
+  top: 5px;
+}
+
+.headerButtonContainer .burgerActive::after {
+  transform: rotate(45deg);
+  top: -1px;
+}
+
+.headerButtonContainer .burgerActive::before {
+  transform: rotate(-45deg);
+  top: 0px;
+}
+
+.menu {
+  width: 100vw;
+  height: 100dvh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  color: white;
+  z-index: 50;
+}
+
+.menu .body {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu .body .nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 52px;
+  gap: 12px;
+}
+
+.menu .body .nav .header {
+  color: rgb(153, 153, 153);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-bottom: 40px;
+}
+
+.menu .body .nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.roundedButton {
+  border-radius: 3em;
+  border: 1px solid rgb(136, 136, 136);
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 60px 15px 60px;
+}
+
+.roundedButton p {
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s linear;
+}
+
+.roundedButton:hover p {
+  color: white;
+}
+
+.circle {
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  border-radius: 50%;
+  top: 100%;
+}
+
+.link {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link .indicator {
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: -30px;
+}
+
+.menu-icon-container {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  padding: 4px;
+  transition: transform 0.3s ease;
+}
+
+.menu-icon-container:hover {
+  transform: scale(1.1);
+}
+
+.menu-icon-container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-width 0.3s ease;
+}
+
+.menu-icon-container:hover::before {
+  width: 100%;
+  height: 100%;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.menu-icon-container:hover {
+  background-color: transparent;
+  border-color: rgb(255, 255, 255);
+}
+
+.menu-icon-container-white {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  padding: 4px;
+  transition: transform 0.3s ease;
+}
+
+.menu-icon-container-white:hover {
+  transform: scale(1.1);
+}
+
+.menu-icon-container-white::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-width 0.3s ease;
+}
+
+.menu-icon-container-white:hover::before {
+  width: 100%;
+  height: 100%;
+  border-width: 2px;
+  border-color: rgb(39, 39, 39);
+  border-radius: 50%;
+}
+
+.menu-icon-container-white:hover {
+  background-color: transparent;
+  border-color: rgb(39, 39, 39);
+}
+
+@media screen and (max-width: 400px) {
+  .svgCurve {
+    position: absolute;
+    top: 0;
+    left: -99px;
+    width: 100px;
+    height: 100%;
+    fill: #202a6c;
+    stroke: none;
+  }
+}
+
+/* MENU END */

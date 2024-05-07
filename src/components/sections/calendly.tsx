@@ -22,7 +22,7 @@ const CalendlySection = () => {
     };
   }, []);
   return (
-    <div className=" relative -mt-80 w-full z-50 mb-40">
+    <div className=" relative md:-mt-80 w-full z-50 md:mb-40">
       <InlineWidget
         styles={{
           height: height,
