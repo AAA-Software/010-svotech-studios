@@ -47,7 +47,11 @@ const SlidingProjects = () => {
   const x2 = useTransform(scrollYProgress, [0, 1], [0, -500]);
 
   return (
-    <div ref={container} className="slidingImages overflow-x-hidden">
+    <div
+      ref={container}
+      className="slidingImages overflow-x-hidden"
+      id="portfolio"
+    >
       <motion.div style={{ x: x1 }} className="slider">
         {slider1.map((project, index) => {
           return (

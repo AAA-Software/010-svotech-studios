@@ -3,6 +3,7 @@ import PrimaryButton from "../common/primary-button";
 import SecondaryButton from "../common/secondary-button";
 import Wrapper from "../wrapper/wrapper";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const CtaSection = () => {
   return (
@@ -13,43 +14,42 @@ const CtaSection = () => {
           <span className="text-[#FFEE00]">SAAS Product!</span>
         </h2>
         <div className="md:hidden w-full">
-          <div className="flex flex-col h-[52px] group bg-[#FFF789] justify-end w-full rounded-lg cursor-pointer mt-4">
-            <div className=" bg-gradient-to-b from-[#FFEE00] to-[#ADA100] h-[50px] rounded-lg flex items-center justify-center px-3 md:px-4">
-              <div className="flex items-center gap-1.5 md:gap-3">
-                <p className=" font-azerete font-medium text-base md:text-lg uppercase">
-                  Start my journey
-                </p>
-                <ArrowRight className=" group-hover:-rotate-45 transition-all ease-in-out duration-300" />
+          <Link href="/schedule">
+            <div className="flex flex-col h-[52px] group bg-[#FFF789] justify-end w-full rounded-lg cursor-pointer mt-4">
+              <div className=" bg-gradient-to-b from-[#FFEE00] to-[#ADA100] h-[50px] rounded-lg flex items-center justify-center px-3 md:px-4">
+                <div className="flex items-center gap-1.5 md:gap-3">
+                  <p className=" font-azerete font-medium text-base md:text-lg uppercase">
+                    Start my journey
+                  </p>
+                  <ArrowRight className=" group-hover:-rotate-45 transition-all ease-in-out duration-300" />
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className=" bg-[#070707] border w-full mt-3 border-[#1F1F1F] h-[52px] rounded-lg flex items-center justify-center px-6">
-            <p className=" font-azerete font-normal text-base md:text-lg uppercase text-[#BDBDBD]">
-              Send us an email
-            </p>
-          </div>
+          <Link href="mailto:svotech@gmail.com">
+            <div className=" bg-[#070707] border w-full mt-3 border-[#1F1F1F] h-[52px] rounded-lg flex items-center justify-center px-6">
+              <p className=" font-azerete font-normal text-base md:text-lg uppercase text-[#BDBDBD]">
+                Send us an email
+              </p>
+            </div>
+          </Link>
         </div>
         <div className="hidden md:block">
           <div className="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-12">
             <div className="w-full">
-              <PrimaryButton text="Start my journey" />
+              <Link href="/schedule">
+                <PrimaryButton text="Start my journey" />
+              </Link>
             </div>
-            <SecondaryButton />
+            <div className="w-full">
+              <Link href="mailto:svotech@gmail.com">
+                <SecondaryButton />
+              </Link>
+            </div>
           </div>
         </div>
       </Wrapper>
-      <div className="absolute z-20 top-0 left-[35%] w-[40rem] h-[40rem]">
-        <div className="relative w-full h-full">
-          <Image
-            fill
-            quality={100}
-            className="object-cover"
-            src="/common/glare.png"
-            alt="Glare"
-          />
-        </div>
-      </div>
       <div className=" hidden md:block absolute inset-0 h-full w-full z-10">
         <div className=" relative w-full h-full">
           <Image

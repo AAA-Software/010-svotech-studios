@@ -30,7 +30,7 @@ const Service = ({
                 {number}
               </h4>
               <div className="flex flex-col items-start text-start md:mb-5">
-                <h2 className=" font-epilogue font-medium text-4xl md:text-[80px]">
+                <h2 className=" font-epilogue font-medium text-5xl md:text-[80px]">
                   {title}
                 </h2>
               </div>

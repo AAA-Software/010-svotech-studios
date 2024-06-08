@@ -2,6 +2,7 @@ import Image from "next/image";
 import Wrapper from "../wrapper/wrapper";
 import { Separator } from "../ui/separator";
 import PrimaryButton from "../common/primary-button";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -29,7 +30,9 @@ const HeroSection = () => {
           landscape
         </p>
         <div className="flex flex-row md:flex-row items-center md:items-center gap-5 md:gap-12 mt-8 md:mt-10">
-          <PrimaryButton text="Start my journey" />
+          <Link href="/schedule">
+            <PrimaryButton text="Start my journey" />
+          </Link>
           <div className="relative h-[52px] w-[100px]">
             <Image
               fill

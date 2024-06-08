@@ -77,19 +77,27 @@ export const Navigation = () => {
             </Link>
 
             <div className="hidden md:block">
-              <div className="flex items-center gap-10">
-                <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
-                  Services
-                </p>
-                <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
-                  Portfolio
-                </p>
-                <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
-                  About
-                </p>
-                <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
-                  FAQs
-                </p>
+              <div className="flex items-center gap-10 z-10">
+                <Link href="/#services">
+                  <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
+                    Services
+                  </p>
+                </Link>
+                <Link href="/#portfolio">
+                  <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
+                    Portfolio
+                  </p>
+                </Link>
+                <Link href="/#about">
+                  <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
+                    About
+                  </p>
+                </Link>
+                <Link href="/#faqs">
+                  <p className=" font-azerete text-base text-white/80 transition-colors ease-in-out duration-200 hover:text-white uppercase">
+                    FAQs
+                  </p>
+                </Link>
                 <Link href="/schedule" className="ml-4">
                   <div className="flex items-center gap-1.5 group">
                     <p className=" font-azerete text-lg text-white uppercase font-medium">

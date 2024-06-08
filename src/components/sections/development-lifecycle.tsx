@@ -3,7 +3,10 @@ import Wrapper from "../wrapper/wrapper";
 
 const DevelopmentLifecycle = () => {
   return (
-    <div className=" w-full flex flex-col items-center mb-80 mt-20 px-4 md:px-0">
+    <div
+      className=" w-full flex flex-col items-center mb-80 mt-20 px-4 md:px-0"
+      id="about"
+    >
       <h1 className="font-epilogue font-medium text-white text-5xl md:text-7xl">
         Development Lifecycle
       </h1>
@@ -208,7 +211,7 @@ const DevelopmentLifecycle = () => {
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
-                className=" object-cover rounded-t-2xl"
+                className=" object-contain rounded-t-2xl"
                 fill
                 src="/common/12.png"
                 alt=""
@@ -244,7 +247,7 @@ const DevelopmentLifecycle = () => {
           <div className="w-full h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl pt-0 pb-10 px-5">
             <div className=" w-full h-[25rem] relative mt-5">
               <Image
-                className=" object-cover rounded-t-2xl"
+                className=" object-contain rounded-t-2xl"
                 fill
                 src="/common/14.png"
                 alt=""
