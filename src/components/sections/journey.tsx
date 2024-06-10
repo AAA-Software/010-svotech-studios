@@ -83,7 +83,7 @@ const Tab = ({ selected, title, setSelected, tabNum, icon }: TabProps) => {
               : "bg-transparent text-[#A3A3A3] group-hover:text-[#c7c7c7] px-5 md:px-10 py-4 md:py-8"
           }`}
         >
-          <div className="aspect-square w-1/3 rounded-full bg-[#FFEE00] border border-[#FFF789] flex items-center justify-center">
+          <div className="aspect-square w-[40%] rounded-full bg-[#FFEE00] border border-[#FFF789] flex items-center justify-center">
             <Image width={32} height={32} src={icon} alt="Icon" />
           </div>
           {title}
