@@ -4,8 +4,8 @@ import Wrapper from "../wrapper/wrapper";
 const WhyUs = () => {
   return (
     <div className="w-full mt-40 md:mt-80">
-      <Wrapper className="px-3 md:px-20 xl:px-32 w-full max-w-screen-5xl">
-        <h2 className="font-epilogue font-medium text-start text-5xl md:text-7xl md:leading-[1.1] text-white mt-10 mb-20">
+      <Wrapper className="px-6 md:px-20 xl:px-32 w-full md:max-w-screen-5xl">
+        <h2 className="font-epilogue font-medium text-start text-4xl md:text-7xl md:leading-[1.1] text-white mt-10 mb-12 md:mb-20">
           Design & Development so good
           <br className="hidden md:block" /> it will make your{" "}
           <span className="text-[#FFEE00]">users stay!</span>

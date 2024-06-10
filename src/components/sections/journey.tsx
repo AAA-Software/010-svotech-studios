@@ -10,7 +10,7 @@ const JourneySection = () => {
   return (
     <section className="mx-auto w-full flex max-w-8xl flex-col items-center gap-0 md:py-12 md:flex-row md:justify-between md:items-end md:gap-0 px-3 md:px-20 xl:px-32">
       <div className="w-full h-fit">
-        <h2 className=" font-epilogue font-medium text-white text-5xl md:text-6xl mb-8">
+        <h2 className=" font-epilogue font-medium text-white text-4xl md:text-6xl mb-8">
           Your SAAS journey in
           <br className="hidden md:block" />{" "}
           <span className="text-[#FFEE00]">four effortless steps</span>
@@ -70,7 +70,7 @@ interface TabProps {
 
 const Tab = ({ selected, title, setSelected, tabNum, icon }: TabProps) => {
   return (
-    <div className="group relative w-full md:w-full">
+    <div className="group relative w-full md:w-full z-50">
       <button
         onClick={() => setSelected(tabNum)}
         className="relative z-0 flex w-full transition-colors md:flex-col"
@@ -83,7 +83,7 @@ const Tab = ({ selected, title, setSelected, tabNum, icon }: TabProps) => {
               : "bg-transparent text-[#A3A3A3] group-hover:text-[#c7c7c7] px-5 md:px-10 py-4 md:py-8"
           }`}
         >
-          <div className=" aspect-square h-14 w-14 rounded-full bg-[#FFEE00] border border-[#FFF789] flex items-center justify-center">
+          <div className="aspect-square w-1/3 rounded-full bg-[#FFEE00] border border-[#FFF789] flex items-center justify-center">
             <Image width={32} height={32} src={icon} alt="Icon" />
           </div>
           {title}

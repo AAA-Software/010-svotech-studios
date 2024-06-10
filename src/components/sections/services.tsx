@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div id="services">
       <Wrapper className="py-40 md:py-60 flex flex-col items-start justify-center text-center max-w-screen-5xl md:px-20 xl:px-32">
-        <h2 className="font-epilogue font-medium text-start text-5xl md:text-7xl text-white mt-10">
+        <h2 className="font-epilogue font-medium text-start text-4xl md:text-7xl text-white mt-10">
           Dedicated to <span className="text-[#FFEE00]">Fulfilling</span>{" "}
           <br className=" hidden md:block" />{" "}
           <span className="text-[#FFEE00]">Your Development Needs</span>.{" "}
