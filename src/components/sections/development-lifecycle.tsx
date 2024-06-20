@@ -15,7 +15,7 @@ const DevelopmentLifecycle = () => {
         As highly experienced agency, We will carefully implement our proven
         systems and operations to Guranteea working SAAS product.
       </p>
-      <Wrapper className="flex flex-row items-center md:flex-col overflow-x-scroll px-0 md:px-20 xl:px-32 mt-10 md:mt-20">
+      <Wrapper className="flex flex-row items-center md:flex-col overflow-x-scroll md:overflow-x-hidden px-0 md:px-20 xl:px-32 mt-10 md:mt-20">
         <div className="w-fit md:w-full flex flex-row md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10">
           <div className="w-[20rem] md:w-full h-[30rem] md:h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] overflow-hidden rounded-2xl pt-0 pb-10 px-2.5 md:px-5">
             <div className=" w-[20rem] md:w-full h-[25rem] relative mt-5">

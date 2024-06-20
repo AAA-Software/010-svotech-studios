@@ -68,7 +68,7 @@ const SlidingProjects = () => {
           );
         })}
       </motion.div>
-      <Link href="/#projects">
+      <Link href="/schedule">
         <motion.div className="projsButtonContainer top-[25%] left-[30%]  md:top-[40%] md:left-[45%]">
           <Rounded
             backgroundColor={"#D3C71F"}

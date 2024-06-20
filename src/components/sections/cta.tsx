@@ -26,25 +26,12 @@ const CtaSection = () => {
               </div>
             </div>
           </Link>
-
-          <Link href="mailto:svotech@gmail.com">
-            <div className=" bg-[#070707] border w-full mt-3 border-[#1F1F1F] h-[52px] rounded-lg flex items-center justify-center px-6">
-              <p className=" font-azerete font-normal text-base md:text-lg uppercase text-[#BDBDBD]">
-                Send us an email
-              </p>
-            </div>
-          </Link>
         </div>
         <div className="hidden md:block">
           <div className="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-12">
             <div className="w-full">
               <Link href="/schedule">
                 <PrimaryButton text="Start my journey" />
-              </Link>
-            </div>
-            <div className="w-full">
-              <Link href="mailto:svotech@gmail.com">
-                <SecondaryButton />
               </Link>
             </div>
           </div>

@@ -43,7 +43,7 @@ interface TabsProps {
 
 const Tabs = ({ selected, setSelected }: TabsProps) => {
   return (
-    <div className="w-full overflow-scroll md:w-[60%]">
+    <div className="w-full xl:w-[60%]">
       {FEATURES.map((tab, index) => {
         return (
           <Tab

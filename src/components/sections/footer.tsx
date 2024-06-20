@@ -6,6 +6,16 @@ import MenuSvg from "../common/menu-svg";
 import PrimaryButton from "../common/primary-button";
 import Wrapper from "../wrapper/wrapper";
 import HeartSvg from "../common/heart-svg";
+import Link from "next/link";
+import {
+  Dialog,
+  DialogTrigger,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogClose,
+} from "../ui/dialog";
 
 const Footer = () => {
   return (
@@ -46,7 +56,9 @@ const Footer = () => {
                     </h3>
                   </div>
                   <div className="mt-8" />
-                  <PrimaryButton text="Book a call" />
+                  <Link href="/schedule">
+                    <PrimaryButton text="Book a call" />
+                  </Link>
                 </div>
               </div>
               <div className="md:hidden mt-4 w-full">
@@ -59,8 +71,6 @@ const Footer = () => {
                     <div className="flex flex-col items-start gap-1.5 mt-3">
                       <AnimatedLink link="" text="Agency" />
                       <AnimatedLink link="" text="Portfolio" />
-
-                      <AnimatedLink link="" text="Pricing" />
                       <AnimatedLink link="" text="Services" />
                       <AnimatedLink link="" text="FAQs" />
                     </div>
@@ -107,12 +117,10 @@ const Footer = () => {
                       Navigation
                     </h3>
                     <div className="flex flex-col items-start gap-1.5 mt-3">
-                      <AnimatedLink link="" text="Agency" />
-                      <AnimatedLink link="" text="Portfolio" />
-
-                      <AnimatedLink link="" text="Pricing" />
-                      <AnimatedLink link="" text="Services" />
-                      <AnimatedLink link="" text="FAQs" />
+                      <AnimatedLink link="/#about" text="Agency" />
+                      <AnimatedLink link="/#portfolio" text="Portfolio" />
+                      <AnimatedLink link="/#services" text="Services" />
+                      <AnimatedLink link="/#faqs" text="FAQs" />
                     </div>
                   </div>
                   <div className="w-full">
@@ -121,9 +129,18 @@ const Footer = () => {
                       Legal Info
                     </h3>
                     <div className="flex flex-col items-start gap-1.5 mt-3">
-                      <AnimatedLink link="" text="Terms & Conditions" />
-                      <AnimatedLink link="" text="Privacy Policy" />
-                      <AnimatedLink link="" text="Cookie Policy" />
+                      <AnimatedLink
+                        link="/legals/terms-and-conditions"
+                        text="Terms & Conditions"
+                      />
+                      <AnimatedLink
+                        link="/legals/privacy-policy"
+                        text="Privacy Policy"
+                      />
+                      <AnimatedLink
+                        link="/legals/cookie-policy"
+                        text="Cookie Policy"
+                      />
                     </div>
                   </div>
                   <div className="w-full">
@@ -134,28 +151,46 @@ const Footer = () => {
                     <div className="flex flex-col items-start gap-1.5 mt-3">
                       <AnimatedLink link="" text="contact@svotech.com" />
                     </div>
-                    <div className=" bg-[#070707] border border-[#1F1F1F] h-[52px] rounded-lg flex items-center justify-center w-fit gap-4 px-4 mt-4">
-                      <p className=" font-azerete font-normal text-lg text-[#BDBDBD]">
-                        Send an email
-                      </p>
-                    </div>
                   </div>
                   <div className="w-full">
                     <HeartSvg />
                     <h3 className=" font-archivo text-white/80 font-medium mt-3 text-lg">
                       Social
                     </h3>
-                    <div className=" bg-[#070707] border border-[#1F1F1F] h-[52px] rounded-lg flex items-center justify-center w-fit gap-4 px-4 mt-4">
-                      <p className=" font-azerete font-normal text-lg text-[#BDBDBD]">
-                        Follow us on
-                      </p>
-                      <Image
-                        width={24}
-                        height={24}
-                        src="/common/ig.svg"
-                        alt="Instagram"
-                      />
-                    </div>
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <div className=" bg-[#070707] border border-[#1F1F1F] h-[52px] rounded-lg flex items-center justify-center w-fit gap-4 px-4 mt-4 cursor-pointer">
+                          <p className=" font-azerete font-normal text-lg text-[#BDBDBD]">
+                            Follow us on
+                          </p>
+                          <Image
+                            width={24}
+                            height={24}
+                            src="/common/ig.svg"
+                            alt="Instagram"
+                          />
+                        </div>
+                      </DialogTrigger>
+                      <DialogContent className="sm:max-w-[520px]">
+                        <DialogHeader>
+                          <DialogTitle>Coming Soon</DialogTitle>
+                        </DialogHeader>
+                        <div className="py-0">
+                          <p className="text-white/80 font-normal text-base font-inter">
+                            Thank you for your interest in following us on
+                            Instagram! We&apos;re excited to announce that our
+                            official Instagram page will be launching soon. Stay
+                            tuned for updates, sneak peeks, and exclusive
+                            content.
+                          </p>
+                        </div>
+                        <DialogFooter>
+                          <DialogClose asChild>
+                            <PrimaryButton text="Close" />
+                          </DialogClose>
+                        </DialogFooter>
+                      </DialogContent>
+                    </Dialog>
                   </div>
                 </div>
               </div>

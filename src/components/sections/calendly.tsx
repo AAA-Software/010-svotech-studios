@@ -32,7 +32,7 @@ const CalendlySection = () => {
           primaryColor: "FFEE00",
           textColor: "ffffff",
         }}
-        url="https://calendly.com/fvachatting/intro-call"
+        url="https://calendly.com/leon-svoboda/svotech?month=2024-06"
       />
     </div>
   );

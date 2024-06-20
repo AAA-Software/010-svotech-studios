@@ -10,12 +10,6 @@ const PreviousClientsSection = () => {
           Partnered with trailblazers.{" "}
           <span className=" text-[#FFEE00]">You&apos;re in good hands.</span>
         </h3>
-        <div className="hidden md:block">
-          <div className="flex text-[#A3A3A3] items-center gap-4 font-inter text-lg font-light">
-            <p>Drag horizontally to see our previous partners</p>
-            <MoveHorizontal />
-          </div>
-        </div>
       </div>
       <PreviousClients items={clients} direction="right" speed="slow" />
     </div>

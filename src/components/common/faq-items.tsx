@@ -36,9 +36,9 @@ export function FaqItems() {
           What if I just want a single website?
         </AccordionTrigger>
         <AccordionContent>
-          If you&apos;re seeking to have just a single website developed, Studio
-          IX can still accommodate your needs efficiently, offering tailored
-          solutions to meet your specific requirements and goals.
+          If you&apos;re seeking to have just a single website developed,
+          SvoTech can still accommodate your needs efficiently, offering
+          tailored solutions to meet your specific requirements and goals.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4">
@@ -50,18 +50,6 @@ export function FaqItems() {
           revision rounds to ensure we meet your expectations, working closely
           with you to refine the design until it aligns perfectly with your
           vision and preferences at no additional cost.
-        </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-5">
-        <AccordionTrigger>
-          Why does SvoTech Studios sound too good to be true?
-        </AccordionTrigger>
-        <AccordionContent>
-          SvoTech Studios&apos; dedication to excellence, experienced team, and
-          commitment to client satisfaction may seem remarkable, but it&apos;s a
-          result of our genuine passion for what we do, years of expertise, and
-          a track record of successful projects that speak to the quality of our
-          services.
         </AccordionContent>
       </AccordionItem>
     </Accordion>
