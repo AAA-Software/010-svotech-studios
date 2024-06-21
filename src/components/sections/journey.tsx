@@ -70,7 +70,7 @@ interface TabProps {
 
 const Tab = ({ selected, title, setSelected, tabNum, icon }: TabProps) => {
   return (
-    <div className="group relative w-full md:w-full z-50">
+    <div className="group relative w-full md:w-full z-10">
       <button
         onClick={() => setSelected(tabNum)}
         className="relative z-0 flex w-full transition-colors md:flex-col"

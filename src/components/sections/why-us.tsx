@@ -31,7 +31,7 @@ const WhyUs = () => {
           </div>
           <div className="w-full h-full flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] rounded-2xl md:pt-8 overflow-clip">
             <div className="w-full h-full flex flex-col md:flex-row">
-              <div className=" w-full h-[20rem] z-50 md:hidden relative">
+              <div className=" w-full h-[20rem] z-20 md:hidden relative">
                 <Image
                   className=" object-cover object-top"
                   fill

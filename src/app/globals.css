@@ -155,14 +155,14 @@
   position: relative;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .slidingImages {
     display: flex;
     flex-direction: column;
     gap: 0vw;
     position: relative;
     margin-top: 100px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: 1;
   }
   .slidingImages .slider {
@@ -171,7 +171,23 @@
     height: 50vw;
     gap: 4vw;
     width: 280vw;
-    left: -80vw;
+    left: -90vw;
+  }
+  .slidingImages .slider .project-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slidingImages .slider .project-item .imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .slidingImages .slider .project-item .imageContainer img {
+    object-fit: cover;
+    object-position: top;
   }
 }
 
@@ -286,8 +302,9 @@
   left: -99px;
   width: 100px;
   height: 100%;
-  fill: #1a1d28;
+  fill: #111111;
   stroke: none;
+  z-index: 20;
 }
 
 .headerButtonContainer {
@@ -348,6 +365,7 @@
 }
 
 .menu {
+  background-color: #111111;
   width: 100vw;
   height: 100dvh;
   position: fixed;
@@ -509,18 +527,6 @@
 .menu-icon-container-white:hover {
   background-color: transparent;
   border-color: rgb(39, 39, 39);
-}
-
-@media screen and (max-width: 400px) {
-  .svgCurve {
-    position: absolute;
-    top: 0;
-    left: -99px;
-    width: 100px;
-    height: 100%;
-    fill: #ffffff;
-    stroke: none;
-  }
 }
 
 /* MENU END */

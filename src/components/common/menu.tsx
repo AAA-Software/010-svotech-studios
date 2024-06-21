@@ -35,7 +35,7 @@ const SideMenu = () => {
       initial="initial"
       animate="enter"
       exit="exit"
-      className="menu bg-gradient-to-b from-black/0 to-black/0 backdrop-blur-lg"
+      className="menu"
     >
       <div className="flex flex-row w-full h-full justify-between px-3 md:px-20 pt-8 md:pt-28 pb-10 md:pb-20">
         <div className="body mt-20">

@@ -69,10 +69,10 @@ const Footer = () => {
                       Navigation
                     </h3>
                     <div className="flex flex-col items-start gap-1.5 mt-3">
-                      <AnimatedLink link="" text="Agency" />
-                      <AnimatedLink link="" text="Portfolio" />
-                      <AnimatedLink link="" text="Services" />
-                      <AnimatedLink link="" text="FAQs" />
+                      <AnimatedLink link="/#about" text="Agency" />
+                      <AnimatedLink link="/#portfolio" text="Portfolio" />
+                      <AnimatedLink link="/#services" text="Services" />
+                      <AnimatedLink link="/#faqs" text="FAQs" />
                     </div>
                   </div>
                   <div className="w-full">
@@ -81,9 +81,18 @@ const Footer = () => {
                       Legal Info
                     </h3>
                     <div className="flex flex-col items-start gap-1.5 mt-3">
-                      <AnimatedLink link="" text="Terms & Conditions" />
-                      <AnimatedLink link="" text="Privacy Policy" />
-                      <AnimatedLink link="" text="Cookie Policy" />
+                      <AnimatedLink
+                        link="/legals/terms-and-conditions"
+                        text="Terms & Conditions"
+                      />
+                      <AnimatedLink
+                        link="/legals/privacy-policy"
+                        text="Privacy Policy"
+                      />
+                      <AnimatedLink
+                        link="/legals/cookie-policy"
+                        text="Cookie Policy"
+                      />
                     </div>
                   </div>
                 </div>
@@ -95,7 +104,10 @@ const Footer = () => {
                       Contact Us
                     </h3>
                     <div className="flex flex-col items-start gap-1.5 mt-3">
-                      <AnimatedLink link="" text="Via Email" />
+                      <AnimatedLink
+                        link="mailto:svotech@gmail.com"
+                        text="Via Email"
+                      />
                     </div>
                   </div>
                   <div className="w-full">

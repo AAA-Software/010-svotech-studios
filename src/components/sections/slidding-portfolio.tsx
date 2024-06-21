@@ -58,7 +58,7 @@ const SlidingProjects = () => {
             <div key={index} className="project-item">
               <div className="imageContainer">
                 <Image
-                  className=" rounded-xl md:rounded-[20px]"
+                  className=" rounded-lg md:rounded-[20px]"
                   fill={true}
                   alt={"image"}
                   src={`/portfolio/${project.src}`}
@@ -69,7 +69,7 @@ const SlidingProjects = () => {
         })}
       </motion.div>
       <Link href="/schedule">
-        <motion.div className="projsButtonContainer top-[25%] left-[30%]  md:top-[40%] md:left-[45%]">
+        <motion.div className="projsButtonContainer top-[25%] left-[30%] md:top-[40%] md:left-[45%]">
           <Rounded
             backgroundColor={"#D3C71F"}
             className="projsButton w-[160px] h-[160px] md:w-[220px] md:h-[220px]"
