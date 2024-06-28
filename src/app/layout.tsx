@@ -4,6 +4,7 @@ import { azerete, epilogue, inter } from "@/lib/customFonts";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "SvoTech Studios - Full Service Agency",
@@ -17,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth overflow-x-hidden">
+      <GoogleTagManager gtmId="G-XT7H6H69J9" />
       <body
         className={cn(
           "antialiased bg-black select-none",
