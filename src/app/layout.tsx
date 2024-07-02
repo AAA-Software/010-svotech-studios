@@ -1,15 +1,11 @@
 import Footer from "@/components/sections/footer";
 import { Navigation } from "@/components/sections/navigation";
 import { azerete, epilogue, inter } from "@/lib/customFonts";
-import { cn } from "@/lib/utils";
-import type { Metadata } from "next";
-import "./globals.css";
+import { cn, constructMetadata } from "@/lib/utils";
 import { GoogleTagManager } from "@next/third-parties/google";
+import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "SvoTech Studios - Full Service Agency",
-  description: "Full-service agency for SAAS products",
-};
+export const metadata = constructMetadata();
 
 export default function RootLayout({
   children,

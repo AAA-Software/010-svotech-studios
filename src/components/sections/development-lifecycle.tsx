@@ -15,14 +15,14 @@ const DevelopmentLifecycle = () => {
         As highly experienced agency, We will carefully implement our proven
         systems and operations to Guranteea working SAAS product.
       </p>
-      <Wrapper className="flex flex-row items-center md:flex-col overflow-x-scroll md:overflow-x-hidden px-0 md:px-20 xl:px-32 mt-10 md:mt-20">
+      <Wrapper className="flex flex-row items-center md:flex-col overflow-x-scroll md:overflow-x-hidden px-0 md:px-0 xl:px-32 mt-10 md:mt-20">
         <div className="w-fit md:w-full flex flex-row md:flex-row items-center justify-between md:px-32 gap-4 md:gap-10">
           <div className="w-[20rem] md:w-full h-[30rem] md:h-[40rem] flex flex-col bg-[#0A0A0A] border border-[#1E1E1E] overflow-hidden rounded-2xl pt-0 pb-10 px-2.5 md:px-5">
             <div className=" w-[20rem] md:w-full h-[25rem] relative mt-5">
               <Image
                 className=" object-cover object-top"
                 fill
-                src="/common/1.png"
+                src="/common/1.webp"
                 alt=""
               />
             </div>
@@ -40,7 +40,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-cover object-top"
                 fill
-                src="/common/2.png"
+                src="/common/req.webp"
                 alt=""
               />
             </div>
@@ -61,7 +61,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-cover object-top"
                 fill
-                src="/common/3.png"
+                src="/common/3.webp"
                 alt=""
               />
             </div>
@@ -79,7 +79,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-cover object-center rounded-t-2xl"
                 fill
-                src="/common/4.png"
+                src="/common/4.webp"
                 alt=""
               />
             </div>
@@ -99,7 +99,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-contain"
                 fill
-                src="/common/5.png"
+                src="/common/imp.webp"
                 alt=""
               />
             </div>
@@ -117,7 +117,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-contain"
                 fill
-                src="/common/6.png"
+                src="/common/6.webp"
                 alt=""
               />
             </div>
@@ -137,7 +137,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-cover"
                 fill
-                src="/common/7.png"
+                src="/common/7.webp"
                 alt=""
               />
             </div>
@@ -155,7 +155,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-contain"
                 fill
-                src="/common/8.png"
+                src="/common/8.webp"
                 alt=""
               />
             </div>
@@ -175,7 +175,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-cover rounded-t-2xl"
                 fill
-                src="/common/9.png"
+                src="/common/test.webp"
                 alt=""
               />
             </div>
@@ -194,7 +194,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className="object-cover rounded-t-2xl"
                 fill
-                src="/common/11.png"
+                src="/common/11.webp"
                 alt=""
               />
             </div>
@@ -214,7 +214,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-contain rounded-t-2xl"
                 fill
-                src="/common/12.png"
+                src="/common/12.webp"
                 alt=""
               />
             </div>
@@ -231,7 +231,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className="object-contain rounded-t-2xl"
                 fill
-                src="/common/13.png"
+                src="/common/dev.webp"
                 alt=""
               />
             </div>
@@ -250,7 +250,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className=" object-contain rounded-t-2xl"
                 fill
-                src="/common/14.png"
+                src="/common/14.webp"
                 alt=""
               />
             </div>
@@ -267,7 +267,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className="object-contain rounded-t-2xl"
                 fill
-                src="/common/15.png"
+                src="/common/feedback.webp"
                 alt=""
               />
             </div>
@@ -286,7 +286,7 @@ const DevelopmentLifecycle = () => {
               <Image
                 className="object-contain rounded-t-2xl"
                 fill
-                src="/common/16.png"
+                src="/common/16.webp"
                 alt=""
               />
             </div>

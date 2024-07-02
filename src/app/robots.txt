@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://svotech.io/sitemap.xml

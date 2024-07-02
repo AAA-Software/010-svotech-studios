@@ -16,7 +16,7 @@ const WhyUs = () => {
               <Image
                 className=" object-cover"
                 fill
-                src="/common/lightning-speed.png"
+                src="/common/lightning-speed.webp"
                 alt=""
               />
             </div>
@@ -35,7 +35,7 @@ const WhyUs = () => {
                 <Image
                   className=" object-cover object-top"
                   fill
-                  src="/common/support-revisions.png"
+                  src="/common/support-revisions.webp"
                   alt=""
                 />
               </div>
@@ -67,7 +67,7 @@ const WhyUs = () => {
                 <Image
                   className=" object-contain"
                   fill
-                  src="/common/chat-1.png"
+                  src="/common/chat-1.webp"
                   alt=""
                 />
               </div>
@@ -77,7 +77,7 @@ const WhyUs = () => {
                 <Image
                   className=" object-contain"
                   fill
-                  src="/common/chat-2.png"
+                  src="/common/chat-2.webp"
                   alt=""
                 />
               </div>
@@ -102,7 +102,7 @@ const WhyUs = () => {
                 <Image
                   className=" object-cover"
                   fill
-                  src="/common/high-quality.png"
+                  src="/common/high-quality.webp"
                   alt=""
                 />
               </div>

@@ -106,25 +106,25 @@ const FEATURES = [
     icon: "/common/call-icon.png",
     title:
       "Discovery Call. We hold a quick 45 minute discovery call to see if you will be a good fit for us.",
-    Feature: () => <ExampleFeature src="/common/call.png" />,
+    Feature: () => <ExampleFeature src="/common/call.webp" />,
   },
   {
     icon: "/common/info-icon.png",
     title:
       "Information Gathering. We gather project requirements and specifications.",
-    Feature: () => <ExampleFeature src="/common/info.png" />,
+    Feature: () => <ExampleFeature src="/common/info.webp" />,
   },
   {
     icon: "/common/code-icon.png",
     title:
       "Work out the product. We design and develop the SAAS product swiftly.",
-    Feature: () => <ExampleFeature src="/common/code.png" />,
+    Feature: () => <ExampleFeature src="/common/code.webp" />,
   },
   {
     icon: "/common/approve-icon.png",
     title:
       "Approval by product owner. You approve the product we build and make necessary revisions",
-    Feature: () => <ExampleFeature src="/common/approve.png" />,
+    Feature: () => <ExampleFeature src="/common/approve.webp" />,
   },
 ];
 

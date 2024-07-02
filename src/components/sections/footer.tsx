@@ -25,7 +25,7 @@ const Footer = () => {
           <Image
             className=" object-contain"
             fill
-            src="/common/footer-text.png"
+            src="/common/footer-text.webp"
             alt="Footer text"
           />
         </div>

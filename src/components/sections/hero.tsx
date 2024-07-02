@@ -50,7 +50,7 @@ const HeroSection = () => {
             fill
             quality={100}
             className=" object-cover"
-            src="/common/hero-bg.png"
+            src="/common/hero-bg.webp"
             alt="Hero bg"
           />
         </div>

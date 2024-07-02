@@ -8,31 +8,31 @@ import Rounded from "../common/rounded-button";
 
 const slider1 = [
   {
-    src: "1.png",
+    src: "1.webp",
   },
   {
-    src: "2.png",
+    src: "2.webp",
   },
   {
-    src: "4.png",
+    src: "4.webp",
   },
   {
-    src: "3.png",
+    src: "3.webp",
   },
 ];
 
 const slider2 = [
   {
-    src: "5.png",
+    src: "5.webp",
   },
   {
-    src: "6.png",
+    src: "6.webp",
   },
   {
-    src: "2.png",
+    src: "2.webp",
   },
   {
-    src: "1.png",
+    src: "1.webp",
   },
 ];
 
